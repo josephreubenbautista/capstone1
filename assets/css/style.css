@@ -4,7 +4,9 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-	max-width: 100%;
+	max-width: 100vw;
+	max-height: 100vw;
+	/*width: 100%;*/
 }
 
 /*
@@ -18,6 +20,8 @@
 	
 }
 
+
+
 #navtext{
 	font-size: 24px;
 	margin-left: 25px;
@@ -26,10 +30,45 @@
 #navtextlast{
 	font-size: 24px;
 	margin-left: 25px;
-	margin-right: 40px;
+	/*margin-right: 40px;*/
 }
 
 #navtextactive{
 	font-size: 24px;
 	margin-left: 25px;
+}
+
+#left{
+	height: 100%;
+}
+
+
+
+#right{
+	height: 100%;
+
+}
+
+#bakit{
+	margin-top: 70px;
+	margin-bottom: 50px; 	
+} /*before footer*/
+
+
+#history{
+	height: 50%;
+}
+
+#team{
+	height: 50%;
+}
+#product{
+	height: 100%;
+}
+
+
+
+
+footer{
+	min-height: 50px;
 }
