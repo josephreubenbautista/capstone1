@@ -22,9 +22,9 @@
 </head>
 <body>
 
-	<nav class="navbar navbar-expand-lg navbar-light bg-warning fixed-top" >
-		<a class="navbar-brand" href="#">ClickEat Cafe</a>
-		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+	<nav class="navbar navbar-expand-lg navbar-light fixed-top" id="back-navi" >
+		<a class="navbar-brand" href="index.html"><img src="assets/images/cec.png" class="img-fluid" id="logo"><strong id="company">ClickEat Cafe</strong></a>
+		<button class="navbar-toggler bg-light" type="button" data-toggle="collapse" data-target="#navbarNav">
 			<span class="navbar-toggler-icon"></span>
 		</button>
 
@@ -32,19 +32,19 @@
 			<ul class="navbar-nav ml-auto">
 
 				<li class="nav-item active">
-					<a class="nav-link" href="#" id="navtextactive">Home</a>
+					<a class="nav-link" href="index.html" id="navtextactive">Home</a>
 				</li>
 
 				<li class="nav-item">
-					<a class="nav-link" href="#" id="navtext">Blog</a>
+					<a class="nav-link" href="gallery.html" id="navtext">Gallery</a>
 				</li>
 
 				<li class="nav-item">
-					<a class="nav-link" href="#" id="navtext">About</a>
+					<a class="nav-link" href="about.html" id="navtext">About</a>
 				</li>
 
 				<li class="nav-item">
-					<a class="nav-link" href="#" id="navtextlast">Contact</a>
+					<a class="nav-link" href="contact.html" id="navtext">Contact</a>
 				</li>
 
 
@@ -63,16 +63,106 @@
 
 
 
-	<div class="container guide" id="bakit">
+	<div class="container guide" id="container">
 		
 		<div class="row">
-			<div class="col-md-8 guide" id="left">
+			
+				
+			
+			<div class="col-lg-12" id="space"></div>
+ 
+			<div class="col-lg-12" id="gallery-name">
+				<img src="assets/images/cec.png" id="cec">
+				<span id="welcome"><strong>Welcome to ClickEat Cafe!</strong></span>
+				
+
+			</div>
+			<div class="col-lg-12">
+				<hr class="my-2">
+				
+			</div>
+
+
+			<div class="col-lg-7 guide" id="left">
+				
+					
+				<div class="col-lg-12" id="cafes">
+					<img src="assets/images/click.png" class="img-fluid" id="cafe">
+				</div>
+
+				<div class="col-lg-12">
+					<p id="home-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				</div>
+
 				
 			</div> <!-- div class for left side -->
+			
 
-			<div class="col-md-4 guide" id="right">
+			<div class="col-lg-5 guide" id="right">
+				<div class="col-lg-12 space" id="spaced">
+					<div class="card" id="card">
+						<div class="media bg-light space">
+								
+							<div class="col-lg-2 col-md-2 col-4">
+								<img src="assets/images/mj.jpeg" class="img-fluid " id="dp">
+									
+							</div>
+							<div class="col-lg-10 col-md-10 col-8">
+								<h6>
+									Michael Jordan
+								</h6>
+								<p class="rev">The best basketball player. The coffee here is greater than my dunks.</p>
+								
+							</div>
+							
+						</div><!-- end of media -->
+						
+
+						<div class="media bg-light space">
+								
+							<div class="col-lg-2 col-md-2 col-4">
+								<img src="assets/images/kobe.jpeg" class="img-fluid " id="dp">
+									
+							</div>
+							<div class="col-lg-10 col-md-10 col-8">
+								<h6>
+									Kobe Bryant
+								</h6>
+								<p class="rev">I am the black mamba. Loving those Milk tea and their nachos with ground beef exactly where I got my awesome shooting touch and the mamba mentality. #mambamentality #mambaout</p>
+								
+							</div>
+							
+						</div><!-- end of media -->
+				
+						<div class="media bg-light space">
+								
+							<div class="col-lg-2 col-md-2 col-4">
+								<img src="assets/images/lbj.jpeg" class="img-fluid " id="dp">
+									
+							</div>
+							<div class="col-lg-10 col-md-10 col-8">
+								<h6>
+									Lebron James
+								</h6>
+								<p class="rev">I love MJ and Kobe they're my heroes. So I work hard to get those rice meals of this coffee shop. Keeps me awake for grinding.</p>
+								
+							</div>
+							
+						</div><!-- end of media -->
+						
+					</div> <!-- end of card -->
+				</div>
+
+
 				
 			</div> <!-- div class for right side -->
+
+			<div class="col-lg-12" id="space"></div>
 
 		</div> <!-- end of row -->
 
@@ -84,7 +174,7 @@
 
 
 	<footer class="guide fixed-bottom">
-		
+		<small>ClickEatCafe  |   © 2018 All rights reserved </small>
 	</footer> <!-- for footer -->
 
 
@@ -104,7 +194,7 @@
 
 	<!-- external bootstrap jS -->
 
-	<script src="asstes/js/bootstrap.min.js"></script>
+	<script src="assets/js/bootstrap.min.js"></script>
 
 
 </body>
