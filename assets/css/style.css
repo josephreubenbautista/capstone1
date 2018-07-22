@@ -17,18 +17,21 @@
 }
 */
 html, body{
-	background-color: #E9EBF8;
+	
 	max-width: 100%;
 	overflow-x: hidden;
 
 }
 
 #container{
+	background-color: #E9EBF8;
 	
 	color: #666;
 	font-family: arial, georgia, veranda;
 	font-size: 14px;
 	line-height: 21px;
+	min-height: 100vh;
+
 }
 .guide{
 	/*border: 5px solid black;*/
@@ -64,9 +67,7 @@ html, body{
 	background-color: #6C6EA0;
 }
 
-#left{
-	height: 100%;
-}
+
 
 #right{
 	height: 100%;
@@ -80,14 +81,90 @@ html, body{
 
 
 #history{
-	height: 50%;
+	/*height: 50%;*/
+	background-color: rgba(119, 136, 153,0.2);
+	border-radius: 20px;
+	padding-top: 10px;
+
+	margin-bottom: 10px;
+	
 }
 
+
 #team{
-	height: 50%;
+	height: 100%;
+	margin-bottom: 10px;
+	background-color: rgba(119, 136, 153,0.2);
+	border-radius: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px; 
 }
+
+.team-member{
+	background-color: rgba(119, 136, 153,0.2);
+	
+	border-radius: 20px;
+	margin-bottom: 10px;
+	
+}
+
+
+
+.team-pic{
+	border-radius: 100%;
+	height: 100px;
+	width: 100px;
+	margin: auto;
+	margin-top: 10px;
+}
+
+.team-desc{
+	text-align: justify;
+	margin-bottom: 0px;
+}
+
+.team-name{
+	text-align: center;
+}
+.product-member{
+	background-color: rgba(119, 136, 153,0.2);
+	
+	border-radius: 20px;
+	margin-bottom: 10px;
+	
+}
+
 #product{
 	height: 100%;
+	margin-bottom: 10px;
+	background-color: rgba(119, 136, 153,0.3);
+	border-radius: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px; 
+}
+
+.product-pic{
+	height: 250px;
+	width: 250px;
+	border-radius: 100%;
+	border: 2px solid black;
+	float: left;
+	margin-top: 10px;
+	margin-bottom: 5px;
+	margin-right: 20px;
+
+}
+
+.product-name{
+	margin: 20px;
+	/*font-size: 30px;*/
+	font-weight: bold;
+}
+
+.product-desc{
+	margin: 30px;
+	text-align: justify;
+	margin-left: 40px;
 }
 
 #cafe{
@@ -105,6 +182,17 @@ html, body{
 	padding:30px; 
 }
 
+#about-logo{
+	max-height: 250px;
+	border: 1px solid black;
+	margin-right: 10px;
+	float: left;
+}
+
+.hist{
+	text-align: justify;
+
+}
 #dp{
 	width: 40px;
 	height: 40px;
@@ -122,18 +210,55 @@ html, body{
 	margin-top: 50px;
 }
 
+.spaces{
+	height:10px;
+}
+
+.lbl{
+	font-size: 16px;
+	font-weight: bold;
+}
+
+#formbg{
+	min-height: 300px;
+	width: 100%;
+	background-color: rgba(204, 204, 255, 0.6);
+	border-radius: 20px;
+}
+
+#for-form{
+	margin: 0px;
+	margin-bottom: 10px;
+}
+
+.branch-name{
+	margin-left: 50px;
+}
+
+textarea{
+	resize: none;
+}
+
+#branch{
+	min-height: 300px;
+	width: 100%;
+	background-color: rgba(204, 204, 255, 0.6);
+	border-radius: 20px;
+
+}
 .rev{
 	text-align: justify;
 	font-size: 12px;
 	font-family: cursive;
 }
 
-#gallery-name{
+#head-name{
 	margin-top: 20px;
 }
 
 #cec{
 	height: 150px;
+	margin-top: 10px;
 }
 
 #welcome{
@@ -153,18 +278,11 @@ html, body{
 }*/
 
 
-#about-logo{
-	height: 350px;
-	border: 1px solid black;
-	margin-right: 10px;
-	float: left;
+
+
+.gal-margin{
+	margin-bottom: 20px;
 }
-
-.hist{
-	text-align: justify;
-
-}
-
 
 footer{
 	text-align: center;
@@ -185,6 +303,21 @@ footer{
 
 	#cec{
 		height: 60px;
+	}
+
+	#about-logo{
+		max-height: 250px;
+		border: 1px solid black;
+		margin-left: 20px;
+		clear: both;
+	}
+
+	#hist-title{
+		text-align: center;
+	}
+
+	.product-pic{
+		margin-left: 20px;
 	}
 
 }
