@@ -23,6 +23,11 @@ html, body{
 
 }
 
+.nav-text:hover{
+	background-color: black;
+
+}
+
 #container{
 	background-color: #E9EBF8;
 	
@@ -308,7 +313,7 @@ footer{
 	#about-logo{
 		max-height: 250px;
 		border: 1px solid black;
-		margin-left: 20px;
+		margin-left: 45px;
 		clear: both;
 	}
 
@@ -317,7 +322,7 @@ footer{
 	}
 
 	.product-pic{
-		margin-left: 20px;
+		margin-left: 40px;
 	}
 
 }
